@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" href="styles/style.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <form class="application" action="index.html" method="post">
+      <fieldset class="column1">
+        <label for="first">FIRST NAME</label>
+        <input id="first"type="text" name="first" placeholder="Han" value="">
+        <label for="last">LAST NAME</label>
+        <input id="last" type="text" name="last" placeholder="Solo" value="">
+        <label for="email">EMAIL ADDRESS</label>
+        <input id="email" type="text" name="email" placeholder="can'twaitfor@starwars.com" value="">
+        <label for="country">COUNTRY</label>
+        <select id="country" class="country" name="country">
+          <option value="disabled">Choose a country</option>
+          <option value="France">France</option>
+          <option value="Italy">Italy</option>
+          <option value="Portugal">Portugal</option>
+          <option value="America">'Murica!!!</option>
+        </select>
+        <label for="bio">BIOGRAPHY</label>
+        <textarea id="bio"name="bio" rows="8" cols="40"></textarea>
+      </fieldset>
+      <fieldset class="column2">
+        <label for="number">PHONE NUMBER</label>
+        <input id="number" type="text" name="number" placeholder=" +351 9999 999" value="">
+        <label for="affiliations">AFFILIATIONS</label>
+        <textarea id="affiliations"name="affiliations" rows="8" cols="40"></textarea>
+        <label for="job">OCCUPATION</label>
+        <select id="job" class="job" name="job">
+          <option value="disabled">Select an occupation</option>
+          <option value="fodder">Bantha fodder</option>
+          <option value="raider">Gungan raider</option>
+          <option value="trader">Toydarian trader</option>
+          <option value="racer">proffesional pod racer</option>
+        </select>
+        <label for="cat">CAT'S NAME</label>
+        <input id="cat" type="text" name="cat" placeholder="Who would own a cat?" value="">
+        <label for="gadget">FAVORITE GADGET</label>
+        <input id="gadget" type="gadget" name="name" placeholder="The Inspector himself" value="">
+      </fieldset>
+      <fieldset class="column3">
+        <label for="talent">TYPE OF TALENT</label>
+        <select id="talent" class="talent" name="talent">
+          <option value="disabled">Choose a talent</option>
+          <option value="persuasion">persuasion</option>
+          <option value="acrobatics">acrobatics</option>
+          <option value="pilot">mechanic/pilot skills</option>
+          <option value="occlumency">occlumency</option>
+        </select>
+        <label for="drink">FAVORITE DRINK </label>
+        <input id="drink "type="text" name="drink" placeholder="Mt.Dew Voltage" value="">
+        <label for="power">SPECIAL POWER</label>
+        <input id="power" type="text" name="power" placeholder="Force-persuade" value="">
+        <label for="weapon">WEAPON OF CHOICE</label>
+        <input id="weapon" type="text" name="weapon" placeholder="lightsaber, duh" value="">
+        <label for="comments">COMMENTS</label>
+        <textarea id="comments" name="comments" rows="8" cols="40"></textarea>
+      </fieldset>
+    </form>
+  </body>
+</html>
