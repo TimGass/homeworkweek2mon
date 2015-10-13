@@ -22,7 +22,8 @@ form fieldset {
       clear: both; }
   form fieldset input {
     background-color: #5CA3D6;
-    border: 3px ridge #FFF; }
+    border: 3px ridge #FFF;
+    width: 100%; }
     form fieldset input:focus {
       border: 3px ridge #296998;
       outline: none; }
@@ -30,10 +31,14 @@ form fieldset {
     color: #296998;
     font-style: italic; }
   form fieldset select {
-    background-color: #5CA3D6; }
+    color: #FFF;
+    background-color: #5CA3D6;
+    width: 100%;
+    font-size: 14px; }
   form fieldset textarea {
     background-color: #5CA3D6;
-    border: 3px ridge #FFF; }
+    border: 3px ridge #FFF;
+    width: 100%; }
     form fieldset textarea:focus {
       border: 3px ridge #296998;
       outline: none; }
@@ -41,10 +46,24 @@ form fieldset {
 @media (max-width: 480px) {
   form fieldset {
     display: block;
-    width: 100%;
-    float: none;
-    margin: 0px auto;
-    padding-left: 20px; } }
+    width: 80%;
+    float: left;
+    margin: 0px 0%;
+    padding-left: 0px; }
+    form fieldset label {
+      margin-left: 10%; }
+    form fieldset input {
+      width: 100%;
+      margin-left: 10%;
+      float: left; }
+    form fieldset select {
+      width: 100%;
+      margin-left: 10%;
+      float: left; }
+    form fieldset textarea {
+      width: 100%;
+      margin-left: 10%;
+      float: left; } }
 
 @media (min-width: 480px) and (max-width: 1130px) {
   form fieldset {
